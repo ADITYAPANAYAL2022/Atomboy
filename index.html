@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-centered">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">
+            <em>Please fill it carefully</em>
+        </p>
+        <form action="#" class="survey-form">
+            <div class="form group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name here">
+
+                
+            </div>
+
+            <div class="form group">
+                <label for="email" id="name-label">Email</label>
+                <input type="email" id="name" >
+             </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label">Age(optional)</label>
+                <input type="number" name="age" id="number">
+
+            </div>
+
+           <div class="form-group">
+            <p>
+                What's your favourite hobby?
+                <p>
+                    <label> 
+                        <input type="checkbox" name="checkbox" id="Dancing">
+                        Dancing
+                    </label>
+                </p>
+                <p>
+                    <label> 
+                        <input type="checkbox" name="checkbox" id="Singing">
+                        Singing
+                    </label>
+                </p>
+                <p>
+                    <label> 
+                        <input type="checkbox" name="checkbox" id="Reading">
+                        Reading
+                    </label>
+                </p>
+                <p>
+                    <label> 
+                        <input type="checkbox" name="checkbox" id="Writing">
+                        Writing
+                    </label>
+                </p>
+            </p>
+           </div>
+
+            <div class="form-group">
+                <label for="gender">Select your gender</label>
+                <p>
+                    <label>
+                        <input type="radio" name="answer" id="male">
+                        Male
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="answer" id="female">
+                        Female
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="answer" id="other">
+                        Other
+                    </label>
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    Any suggestions for a better world
+                </p>
+                <textarea name="comment" id="comment" cols="50" rows="6" placeholder="Enter your suggestions here"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+        </header>
+    </div>
+</body>
+</html>
